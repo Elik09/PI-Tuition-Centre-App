@@ -45,11 +45,11 @@ public class LoginGUI extends JFrame implements ActionListener, TuitionCenter {
         buttonSpacer = new JPanel();
 
         appName = new JLabel("                Pi Tuition Center");
-        idLabel = new JLabel("ID:                      ");
+        idLabel = new JLabel("ID:                  ");
         passwordLabel = new JLabel("Password:      ");
 
-        userIDField = new JTextField("User ID");
-        passwordField = new JPasswordField("password");
+        userIDField = new JTextField("");
+        passwordField = new JPasswordField("");
 
         login = new JButton("Log In");
         register = new JButton("Register");
@@ -92,7 +92,7 @@ public class LoginGUI extends JFrame implements ActionListener, TuitionCenter {
         loginButtonContainer.add(register, BorderLayout.NORTH);
 
 
-        //Here Order is Very Important Take Care of it
+        //Here Order
         getContentPane().add(nameContainer);
         getContentPane().add(idSpacer);
         getContentPane().add(idLabelFieldContainer);
