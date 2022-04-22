@@ -8,6 +8,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
 public class StartGUI extends JPanel implements ActionListener, TuitionCenter {
 
     private JPanel centerContainer;
@@ -27,37 +28,37 @@ public class StartGUI extends JPanel implements ActionListener, TuitionCenter {
 
     public StartGUI() {
 
-        Student st = new Student("st-123","01/02/22", 'M',"Salahuhdin", "Boys Hostel#36", "1234","03006753534");
-        Student st1 = new Student("st-124","02/02/22", 'M',"Farman", "Boys Hostel#36", "1234","03006753534");
-        Student st2 = new Student("st-125","03/23/22", 'F',"Fiza", "Girls Hostel#36", "1ads4","032506753534");
-        Student st3 = new Student("st-126","04/02/22", 'M',"Asghar", "Boys Hostel#36", "15634","03006753534");
-        Student st4 = new Student("st-127","05/02/22", 'M',"Faizan", "Boys Hostel#36", "1234","03006753534");
-        Student st5 = new Student("st-128","06/02/22", 'M',"Sultan", "Boys Hostel#36", "1234","03006753534");
-        Student st6 = new Student("st-129","07/23/22", 'F',"Izzah", "Girls Hostel#36", "1ads4","032506753534");
-        Student st7 = new Student("st-130","08/02/22", 'M',"Taj", "Boys Hostel#36", "15634","03006753534");
-        Student st8= new Student("st-131","09/02/22", 'M',"Tayyab", "Boys Hostel#36", "1234","03006753534");
-        Student st9 = new Student("st-132","10/02/22", 'M',"Khalil", "Boys Hostel#36", "1234","03006753534");
-        Student st10 = new Student("st-133","01/23/22", 'F',"Hafsa", "Girls Hostel#36", "1ads4","032506753534");
-        Student st11 = new Student("st-134","20/02/22", 'M',"Kamran", "Boys Hostel#36", "15634","03006753534");
-        Student st12 = new Student("st-135","01/02/22", 'M',"Bilal", "Boys Hostel#36", "1234","03006753534");
-        Student st13 = new Student("st-136","01/02/22", 'M',"Bilawal", "Boys Hostel#36", "1234","03006753534");
-        Student st14 = new Student("st-137","01/23/22", 'F',"Kalsoom", "Girls Hostel#36", "1ads4","032506753534");
-        Student st15 = new Student("st-138","20/02/22", 'M',"Hussain", "Boys Hostel#36", "15634","03006753534");
-        Student st16 = new Student("st-139","01/02/22", 'M',"Saud", "Boys Hostel#36", "1234","03006753534");
-        Student st17 = new Student("st-140","01/02/22", 'M',"Zulfiqar", "Boys Hostel#36", "1234","03006753534");
-        Student st18 = new Student("st-141","01/23/22", 'F',"Arsalan", "Girls Hostel#36", "1ads4","032506753534");
-        Student st19 = new Student("st-142","20/02/22", 'M',"Ayyan", "Boys Hostel#36", "15634","03006753534");
-        Student st20 = new Student("st-143","01/02/22", 'M',"Qais", "Boys Hostel#36", "1234","03006753534");
-        Student st21 = new Student("st-144","01/02/22", 'M',"Basit", "Boys Hostel#36", "1234","03006753534");
-        Student st22 = new Student("st-145","01/23/22", 'F',"Javeria", "Girls Hostel#36", "1ads4","032506753534");
-        Student st23 = new Student("st-146","20/02/22", 'M',"Talha", "Boys Hostel#36", "15634","03006753534");
-        Student st24 = new Student("st-147","01/02/22", 'M',"Sabahat", "Boys Hostel#36", "1234","03006753534");
-        Student st25 = new Student("st-148","01/02/22", 'M',"Farhad", "Boys Hostel#36", "1234","03006753534");
-        Student st26 = new Student("st-149","01/23/22", 'F',"Samia", "Girls Hostel#36", "1ads4","032506753534");
-        Student st27 = new Student("st-150","20/02/22", 'M',"Ali", "Boys Hostel#36", "15634","03006753534");
+        Student st = new Student("st-123","01/02/22", 'M',"john", "Boys Hostel#36", "1234","03006753534");
+        Student st1 = new Student("st-124","02/02/22", 'M',"koby", "Boys Hostel#36", "1234","03021753534");
+        Student st2 = new Student("st-125","03/23/22", 'F',"kazia", "Girls Hostel#36", "1ads4","042506753534");
+        Student st3 = new Student("st-126","04/02/22", 'M',"Ash", "Boys Hostel#36", "15634","04006753534");
+        Student st4 = new Student("st-127","05/02/22", 'M',"john", "Boys Hostel#36", "1234","09006753534");
+        Student st5 = new Student("st-128","06/02/22", 'M',"pak", "Boys Hostel#36", "1234","03006701534");
+        Student st6 = new Student("st-129","07/23/22", 'F',"lizzy", "Girls Hostel#36", "1ads4","032396753534");
+        Student st7 = new Student("st-130","08/02/22", 'M',"Taj", "Boys Hostel#36", "15634","03001253534");
+        Student st8= new Student("st-131","09/02/22", 'M',"TM", "Boys Hostel#36", "1234","03005653534");
+        Student st9 = new Student("st-132","10/02/22", 'M',"Khalil", "Boys Hostel#36", "1234","09006753534");
+        Student st10 = new Student("st-133","01/23/22", 'F',"alice", "Girls Hostel#36", "1ads4","052506753534");
+        Student st11 = new Student("st-134","20/02/22", 'M',"lyton", "Boys Hostel#36", "15634","02006753534");
+        Student st12 = new Student("st-135","01/02/22", 'M',"stephen", "Boys Hostel#36", "1234","01006753534");
+        Student st13 = new Student("st-136","01/02/22", 'M',"justice", "Boys Hostel#36", "1234","08006753534");
+        Student st14 = new Student("st-137","01/23/22", 'F',"samantha", "Girls Hostel#36", "1ads4","052506753534");
+        Student st15 = new Student("st-138","20/02/22", 'M',"johnson", "Boys Hostel#36", "15634","09006653534");
+        Student st16 = new Student("st-139","01/02/22", 'M',"abraham", "Boys Hostel#36", "1234","08006753534");
+        Student st17 = new Student("st-140","01/02/22", 'M',"santi", "Boys Hostel#36", "1234","03006753534");
+        Student st18 = new Student("st-141","01/23/22", 'F',"Alexa", "Girls Hostel#36", "1ads4","072506753534");
+        Student st19 = new Student("st-142","20/02/22", 'M',"gerald", "Boys Hostel#36", "15634","0706753534");
+        Student st20 = new Student("st-143","01/02/22", 'M',"weslley", "Boys Hostel#36", "1234","07006753534");
+        Student st21 = new Student("st-144","01/02/22", 'M',"leo", "Boys Hostel#36", "1234","07006753534");
+        Student st22 = new Student("st-145","01/23/22", 'F',"telma", "Girls Hostel#36", "1ads4","02506753534");
+        Student st23 = new Student("st-146","20/02/22", 'M',"Talha", "Boys Hostel#36", "15634","07006753534");
+        Student st24 = new Student("st-147","01/02/22", 'M',"Sabahat", "Boys Hostel#36", "1234","07006753534");
+        Student st25 = new Student("st-148","01/02/22", 'M',"Frances", "Boys Hostel#36", "1234","07006753534");
+        Student st26 = new Student("st-149","01/23/22", 'F',"Samia", "Girls Hostel#36", "1ads4","072506753534");
+        Student st27 = new Student("st-150","20/02/22", 'M',"Ali", "Boys Hostel#36", "15634","07006753534");
         Student st28 = new Student("st-151","01/02/22", 'M',"Rashid", "Boys Hostel#36", "1234","03006753534");
-        Student st29 = new Student("st-152","01/02/22", 'M',"Fakhar", "Boys Hostel#36", "1234","03006753534");
-        Student st30 = new Student("st-153","01/23/22", 'F',"Nimra", "Girls Hostel#36", "1ads4","032506753534");
+        Student st29 = new Student("st-152","01/02/22", 'M',"Eric", "Boys Hostel#36", "1234","07006753534");
+        Student st30 = new Student("st-153","01/23/22", 'F',"Nimra", "Girls Hostel#36", "1ads4","072506753534");
 
         students.add(st);
         students.add(st1);
@@ -92,7 +93,7 @@ public class StartGUI extends JPanel implements ActionListener, TuitionCenter {
         students.add(st30);
 
         Books b = new Books("B-123","LeaderShip");
-        Books b1 = new Books("B-124","The Kite Runner");
+        Books b1 = new Books("B-124","English Comprehension");
         Books b2 = new Books("B-125","Mental Math");
         Books b3= new Books("B-126","Moon Light");
         Books b4 = new Books("B-127","Physics Revolution");
